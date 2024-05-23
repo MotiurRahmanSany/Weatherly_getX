@@ -28,7 +28,10 @@ class HomeScreen extends StatelessWidget {
                         width: 200,
                         height: 200,
                       ),
-                      const CircularProgressIndicator(),
+                      const CircularProgressIndicator(
+                        color: CustomColors.firstGradientColor,
+                        // backgroundColor: CustomColors.secondGradientColor,
+                      ),
                     ],
                   ),
                 )
